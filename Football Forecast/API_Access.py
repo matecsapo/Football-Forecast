@@ -1,5 +1,5 @@
-CLIENT_ID = 'i2cta5pwoTbutnWT0m9Z8g'
-SECRET_KEY = 'cVMc4BUuT1gy4-Ot5olgTFcVT2m47g'
+CLIENT_ID = 'xxx'
+SECRET_KEY = 'xxx'
 
 import requests
 
@@ -7,7 +7,7 @@ auth = requests.auth.HTTPBasicAuth (CLIENT_ID, SECRET_KEY)
 data = {
     'grant_type': 'password',
     'username': 'Football_Forecast',
-    'password': 'leledoba22'
+    'password': 'xxx'
 }
 headers = {'User-Agent': 'MyAPI/0.0.1'}
 res = requests.post ('https://www.reddit.com/api/v1/access_token',
